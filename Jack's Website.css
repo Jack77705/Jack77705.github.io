@@ -1,0 +1,188 @@
+body {
+    background-image: url('images/galaxy background.jpg');
+    background-size: contain;
+    margin:0;
+}
+
+.topnav {
+    background-color: #201125;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    margin: auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(92, 28, 134);
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #37054b;
+    color: white;
+}
+
+.sun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url('images/sun.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2%;
+    margin-bottom: 14%;
+}
+
+.planet {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 17%;
+    margin-bottom: 0px;
+}
+
+.github_button {
+    border: 0px;
+    border-radius: 18px;
+    padding: 0 6px;
+    height: 120px;
+    width: 120px;
+    top: 0px;
+    margin:12px;
+    text-align:center;
+    justify-content: center;
+    background-color: #1B1F23; 
+    box-shadow: 0 8px 0 black;
+    float: left;
+    position: relative;
+}
+
+.github_button:hover {
+    box-shadow: 0 0 0 0;
+    top: 8px;
+    cursor: pointer;
+}
+
+.github_button:active {
+    background-color: black;
+}
+
+.discord_button {
+    border: 0px;
+    border-radius: 18px;
+    padding: 0 6px;
+    height: 120px;
+    width: 120px;
+    top: 0px;
+    margin:12px;
+    text-align:center;
+    justify-content: center;
+    background-color: #5966F5; 
+    box-shadow: 0 8px 0 #272d72;
+    float: right;
+    position: relative;
+}
+
+.discord_button:hover {
+    box-shadow: 0 0 0 0;
+    top: 8px;
+    cursor: pointer;
+}
+
+.discord_button:active {
+    background-color: #272d72;
+}
+
+.cc_button {
+    border: 0px;
+    border-radius: 18px;
+    padding: 0 6px;
+    height: 120px;
+    width: 120px;
+    top: 0px;
+    margin:12px;
+    text-align:center;
+    justify-content: center;
+    background-color: #41c076; 
+    box-shadow: 0 8px 0 #21613c;
+    position: relative;
+    margin-top: 160px;
+    margin-left: 28.5%;
+    color: white;
+    font-family: "Suse", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cc_button:hover {
+    box-shadow: 0 0 0 0;
+    top: 8px;
+    cursor: pointer;
+}
+
+.cc_button:active {
+    background-color: #21613c;
+}
+
+.cc_button .cc {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.cc_button .nope {
+    display: none;
+}
+  
+.cc_button:hover .cc {
+    display: none;
+}
+  
+.cc_button:hover .nope {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: "Suse", sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    color: white;
+    font-family: "Suse", sans-serif;
+    font-size: 48px;
+}
+
+p {
+    color: white;
+    font-family: "Suse", sans-serif;
+    font-size: 28px;
+
+}
+
+li {
+    color: white;
+    font-family: "Suse", sans-serif;
+    font-size: 28px;
+}
