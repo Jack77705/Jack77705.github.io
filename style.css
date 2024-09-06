@@ -9,6 +9,7 @@ body {
     overflow: hidden;
     position: sticky;
     top: 0px;
+    text-decoration: none;
     margin: auto;
   }
   
